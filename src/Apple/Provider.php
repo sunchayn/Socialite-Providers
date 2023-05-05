@@ -107,7 +107,10 @@ class Provider extends AbstractProvider
     }
 
     /**
-     * {@inheritdoc}
+     * Get the raw user for the given identity token.
+     *
+     * @param  string  $token
+     * @return array
      */
     protected function getUserByToken($token)
     {
